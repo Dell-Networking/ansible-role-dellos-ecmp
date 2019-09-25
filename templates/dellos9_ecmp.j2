@@ -1,9 +1,7 @@
 #jinja2: trim_blocks: True,lstrip_blocks: True
 {####################################
-
 Purpose:
 Configure ECMP commands for dellos9 devices 
-
 dellos_ecmp:
   weighted_ecmp: true
   ecmp_group_max_paths: 3
@@ -62,6 +60,3 @@ ecmp-group {{ group_num[1] }}
   {% endif %}
   {% endfor %}
 {% endif %} 
-
-
-

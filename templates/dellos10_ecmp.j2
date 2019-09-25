@@ -1,14 +1,10 @@
 #jinja2: trim_blocks: True,lstrip_blocks: True
 {####################################
-
 Purpose:
 Configure ECMP commands for dellos10 devices 
-
 dellos_ecmp:
   ecmp_group_max_paths: 3
   trigger_threshold: 50
-
-
 #####################################}
 {% if dellos_ecmp is defined and dellos_ecmp %}
   {% if dellos_ecmp.ecmp_group_max_paths is defined %}
@@ -27,6 +23,3 @@ no link-bundle-utilization trigger-threshold
   {% endif %}
 
 {% endif %} 
-
-
-

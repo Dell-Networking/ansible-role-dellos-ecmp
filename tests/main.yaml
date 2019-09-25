@@ -1,8 +1,6 @@
 ---
 # vars file for Dell-Networking.dellos-ecmp, below gives a sample configuration
-
 # Sample variables for dellos9 device
-
 dellos_ecmp:
   ecmp 1:
     interface:
@@ -15,7 +13,6 @@ dellos_ecmp:
   ecmp_group_path_fallback: true
 
 # Sample variables for dellos10 device
-
 dellos_ecmp:
   ecmp_group_max_paths: 3
   trigger_threshold: 50
