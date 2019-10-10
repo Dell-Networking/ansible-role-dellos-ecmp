@@ -1,0 +1,6 @@
+---
+# vars file for Dell-Networking.dellos-ecmp, below gives a sample configuration
+# Sample variables for dellos10 device
+dellos_ecmp:
+  ecmp_group_max_paths: 3
+  trigger_threshold: 50

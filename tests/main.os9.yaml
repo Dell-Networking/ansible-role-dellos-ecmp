@@ -11,8 +11,3 @@ dellos_ecmp:
   weighted_ecmp: true
   ecmp_group_max_paths: 3
   ecmp_group_path_fallback: true
-
-# Sample variables for dellos10 device
-dellos_ecmp:
-  ecmp_group_max_paths: 3
-  trigger_threshold: 50
